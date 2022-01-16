@@ -1,0 +1,113 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+form {
+  width: 12rem;
+  height: 17rem;
+  margin: 2rem;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: #cecece;
+  box-shadow:  0px 2px 15px -3px #505050; 
+}
+
+h2 {
+  text-align: center;
+  letter-spacing: 8px;
+}
+
+.username {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.savepassword {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+input[type="text"] {
+  margin-top: 7px;
+  padding: 7px 7px 7px 7px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+} 
+
+input[type="text"]:hover {
+  padding: 8px;
+  outline:  solid #4b636d;
+}
+
+input[type="text"]::placeholder {
+  color: rgb(200, 192, 192);
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+input[type="password"] {
+  margin-top: 7px;
+  padding: 7px 7px 7px 7px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="password"]:hover {
+  padding: 8px;
+  outline: solid #4b636d;
+}
+
+input[type="password"]::placeholder {
+  color: rgb(200, 192, 192);
+  font-family: 'Roboto', sans-serif;
+}
+
+.enviar {
+  color: #fff;
+  background-color: #2e608c;
+  padding: 5px 70px 5px 70px;
+  margin: 10px 10px 10px 1px;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.enviar:hover {
+  transition-duration: 0.4s;
+  box-shadow: 0 5px 5px 0 #a4afb8;
+  color: #2e608c;
+  background-color: rgb(187, 221, 223);
+  border-radius: 3px;
+}
+
+a {
+  width: 50%;
+  font-size: 0.9em;
+  text-align: center;
+  color: rgb(108, 120, 125);
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  text-decoration: none;
+}
+a:hover {
+  transition-duration: 0.1s;
+  font-size: 0.7rem;
+  border: none;
+}
